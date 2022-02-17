@@ -35,8 +35,7 @@ display: flex;
   border-radius: 50%!important;
     height: 415px;
     display: flex;
-    
-    margin-top: 90px;
+   margin-top: 90px;
 }
 .py-5 .col-md-6 {
   background-color: rgba(0,0,0,0.8);
