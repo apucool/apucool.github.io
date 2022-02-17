@@ -1,0 +1,91 @@
+body {
+  overflow-x: hidden;
+  
+  max-width: 100%;
+
+  
+}
+.navbar .nav-link {
+font-size: 14px;
+text-transform: uppercase;
+padding-left: 1em !important;
+padding-right: 1em !important;
+}
+.navbar .nav-item .active {
+border-left: #444 3px solid;
+}
+.col-md-4 > i {
+  font-size: 40px;
+}
+.header {
+  margin-bottom: 40px;
+}
+.col-md-6 .d-flex .row {
+width: 300px;
+display: flex;
+
+}
+
+ .home .d-flex .col {
+  display: grid;
+  width: 300px;
+  justify-content: end;
+}
+.py-5 .col-md-6 {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+.card-body >i {
+  font-size: 40px;
+}
+.heading {
+  font-size: 16px;
+  font-weight: bold;
+}
+.heading1 {
+  font-size: 14px;
+  font-weight: bold;
+}
+.certification .col-md-4 >i {
+font-size: 80px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+   
+  }
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+  }
+.img {
+  width: 100%;
+  height: 200px;  
+}
+
+.info {
+  width: 632px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#work {
+  background-color: #b6e9e9;
+}
+#work .row {
+  width: 100%;
+  height: 350px;
+}
+#work .col-md-4 {
+  height: 200px;
+}
+ .solid {
+  border-style: ridge;
+  padding: 40px;
+  border-color: rgb(110, 106, 106);
+  border-radius: 10px;
+  border-width: thin;
+}

@@ -1,0 +1,241 @@
+*{
+	margin: 0;
+	padding: 0;
+     list-style-type: none;
+	font-family: 'DM Sans', sans-serif;
+  scroll-behavior: smooth;
+
+}
+body {
+  overflow-x: hidden;
+ /* overflow-y: hidden; */
+}
+.header {
+  /*overflow: hidden; */
+    background-color: #f1f1f1;
+  padding: 5px 5px;
+  height: 45px;
+ position: fixed;
+ width: 100vw;
+ display: flex;
+}
+.header img{
+  width: 80px;
+    height: 40px;
+    margin-left: 10px;
+}
+.header h1 {
+  display: contents;
+    color: brown;
+}
+
+.header a {
+ display: inline-flex;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height:12px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+     padding: 17px 0 17px 0;
+    float: inherit;
+    color: brown;
+}
+.header h1 {
+  font-size: 25px;
+}
+.header-right a:hover {
+background: lightblue;
+
+}
+.header-right button {
+  border: none;
+}
+
+
+
+.header-right {
+  display: flex;
+     justify-content: flex-end;
+    width: 70%;
+    align-items: center;
+
+}
+
+ 
+.home {
+  height: 481px;
+ display: block;
+  background-image: url('https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__480.jpg');
+   
+}
+.about {
+  display: flex;
+  margin-left: 10px;
+
+}
+.contanier{
+  display: flex;
+    width: 100%;
+    align-items: center;
+    margin: 10px;
+    background-color: aliceblue;
+   
+}
+.class1{
+  display: flex;
+    width: 50%;
+    justify-content: center;
+}
+.about .image {
+    width: 500px;
+}
+.class2 {
+  display: block;
+padding-left: 20px;
+line-height: 1.7;
+   
+}
+.class2 h1 {
+ text-align: center;
+}
+.service {
+  background-color: bisque;
+    display: flex;
+    justify-content: center;
+}
+.service-icon {
+display: flex;
+justify-content: center;
+height: 270px;
+ width: 100%;
+align-items: center;
+}
+.card {
+ width: 200px;
+height: 160px;
+border: 1px solid #b9a8ef;
+display: grid;
+    justify-content: center;
+    align-items: center;
+   margin-right: 10px;
+    border-radius: 10px;
+    background-color: #7e7878;
+}
+
+.card i {
+font-size: 60px;
+display: flex;
+justify-content: center;
+color: lightblue;
+}
+h2{
+  color:#07dfa2f5;
+}
+.pics {
+  width: 100%;
+  height: 500px;
+  margin-left: 5px;
+}
+.gallary {
+  display: grid;
+  grid-template-areas: "img img img";
+   justify-content: space-around;
+   align-items: center;
+   margin: 5px;
+
+ }
+ .pics h2 {
+  text-align: center;
+   font-size: 33px;
+    font-weight: normal;
+    margin-top: 15px;
+}
+  
+ .class3 {
+width: 95%;
+    height: 300px;
+    padding: 10px 10px 10px 10px;
+ }
+
+.contact {
+ margin-top: 180px; 
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: #f1f1f1;
+    padding: 40px;
+}
+
+.form{
+display: flex;
+ padding: 2%;
+ color: #911b15;
+
+ width: 320px;
+    border: 1px solid #7e7878;
+    border-radius: 10px;
+ }
+.form input[type="text"] {
+   padding: 20px 50px 10px 25px;
+   border-radius: 10px;
+   border-color: white;
+    box-shadow: 1px 1px;
+   margin: 10px 0px;
+ 
+    
+  }
+  .form input[type="email"] {
+   padding: 20px 50px 10px 25px;
+   border-radius: 10px;
+   border-color: white;
+    box-shadow: 1px 1px;
+   margin: 10px 0px;
+ 
+  }
+
+  .form textarea {
+ padding: 10px 0px 0px 0px;
+   border-radius: 10px;
+   height: 115px;
+    width: 313px;
+    box-shadow: 1px 1px;
+   margin: 10px 0px;
+ color: #7e7878;
+   
+  }
+
+ 
+.form button {
+  padding: 15px 30px 15px 30px;
+   border-radius: 10px;
+   border-color: white;
+    box-shadow: 1px 1px;
+   margin: 10px 20px;
+   margin-left: 100px;
+  }
+ 
+.foot {
+  display: flex;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+ margin: 30px 0 30px 0;
+  
+}
+
+ 
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  

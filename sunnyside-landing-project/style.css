@@ -1,0 +1,521 @@
+*{
+	margin: 0;
+	padding: 0;
+
+ box-sizing: border-box;
+ scroll-behavior: smooth;
+
+}
+body {
+    overflow-x: hidden;
+    font-size: 18px;
+
+}
+label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+}
+#toggle {
+    display: none;
+
+}
+.contanier {
+    display: flex;
+    padding: 10px;
+}
+.head {
+        display: flex;
+    width: 20%;
+    justify-content: start;
+    align-items: center;
+    height: 50px;
+    color: white;
+        font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: sans-serif;
+
+}
+.head h1 {
+        font-size: 36px;
+        text-transform: uppercase;
+}
+header {
+     
+    background-image: url('images/desktop/image-header.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+     height: 600px;
+   }
+
+ header  nav{
+display: flex;
+    width: 80%;
+    justify-content: end;
+}
+
+.menu ul {
+    display: flex;
+    width: 500px;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 10vh;
+} 
+.menu ul li {
+  list-style-type: none;  
+}
+.menu ul li a {
+    text-decoration: none;
+        font-size: 20px;
+    color: white;
+    font-family: Barlow;
+    font-weight: 700;
+} 
+.menu ul li button {
+    list-style-type: none;
+} 
+
+
+.contact {
+    line-height: 2;
+    padding: 0 20px;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    border: none;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+.description p {
+    font-size: 45px;
+    font-family: Fraunces;
+    color: white;
+    font-weight: 600;
+}
+.icon {
+    display: flex;
+    justify-content: center;
+    height: 287px;
+    align-items: center;
+}
+.one {
+       display: flex;
+}
+.row {
+    display: flex;
+    
+
+}
+.head1 {
+    display: flex;
+    justify-content: center;
+    color: black;
+     width: 100%;
+     font-family: Fraunces;
+    font-weight: 700;
+   
+}
+.para1{
+    display: flex;
+    justify-content: center;
+     color: black;
+    
+}
+.button {
+    display: flex;
+    width: 50vw;
+    justify-content: center;
+
+}
+
+.button button {
+    background-image: linear-gradient( Yellow, #ffff8e,transparent);
+    list-style-type: none ;
+    color: black;
+    font-size: 14px;
+    width: 100px;
+     border: none;
+    border-radius: 15px;
+    font-weight: 600;
+    line-height: 2;
+}
+.two {
+   display: grid;
+    width: 100vw;
+    grid-template-areas: "div div"
+}
+
+.column1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50vw;
+
+}
+.column2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50vw;
+
+}
+.columnfirst{
+    display: flex;
+    flex: 50%;
+}
+.columnfirst img {
+    width:50vw;
+}
+.columnsecond{
+    display: flex;
+    flex-direction: column;
+   flex: 50%;
+   justify-content: space-evenly;
+    align-items: center;
+    
+}
+.head2 {
+    display: flex;
+    justify-content: center;
+    color: black;
+    width: 100%;
+    font-family: Fraunces;
+    font-weight: 700;
+}
+.button1 {
+    display: flex;
+    width: 50vw;
+    justify-content: center;
+
+}
+ .button1 .button2 {
+    background-image: linear-gradient( #fe7867, #fda69b,transparent);
+    list-style-type: none ;
+    color: black;
+    font-size: 14px;
+    width: 100px;
+     border: none;
+    border-radius: 15px;
+    font-weight: 600;
+    line-height: 2;
+}
+
+.column3 {
+  flex: 51%;
+background-image: url("images/desktop/image-graphic-design.jpg");
+background-size: cover;
+  height: 500px; 
+}
+
+.column4 {
+     flex: 50%;
+  background-image: url("images/desktop/image-photography.jpg");
+  background-size: cover;
+  height: 500px;
+}
+.detail {
+    display: flex;
+    flex-direction: column;
+    margin-top: 360px;
+    align-items: center;
+    padding: 20px;
+}
+.row h2 {
+    margin-bottom: 10px;
+}
+.four {
+    display: grid;
+    height: 500px;
+}
+.four h4 {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin: 30px;
+}
+.card{
+   padding: 20px;
+    border: none;
+    
+}
+.card img {
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+}
+
+.card-grid{
+   display: inline-flex;
+    max-width: 100%;
+   align-content: center;
+    justify-content: center;
+     margin-bottom: 30px;
+    }
+.gallary {
+    display: flex;
+    height: 420px;
+}
+footer {
+    display: grid;
+    height: 300px;
+
+}
+.foot {
+    display: contents;
+    height: 200px;
+}
+footer ul li {
+    list-style-type: none;
+}
+footer h1 {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px;
+      color:  hsl(168, 34%, 41%);
+}
+.icons {
+    display: grid;
+     
+    grid-template-areas: "svg svg svg svg";
+    justify-content: center;
+   
+}
+.nav {
+  display: flex;
+    justify-content: center;
+}
+.nav ul {
+    display: grid;
+    
+    justify-content: space-evenly;
+    align-items: center;
+   
+    grid-template-areas: "li li li li";
+    width: fit-content;
+    gap: 22px;
+   color:  hsl(168, 34%, 41%);
+}
+@media only screen and (min-width: 200px) and (max-width: 1000px) {
+   
+   body {
+    width: max-content;
+    overflow: auto;
+   }
+    label {
+        display: block;
+        cursor: pointer;
+    }
+    label:hover .menu a{
+        display: block;
+
+    }
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .menu a {
+        display: block;
+        margin: 0;
+    }
+    #toggle:checked + .menu {
+        display: block;
+    }
+    .head {
+        font-size: 14px;
+        display: flex;
+        
+    }
+    .contanier {
+        display: flex;
+    }
+    .one {
+        display: flex;
+        width: 100%;
+    }
+    .one .row {
+     display: flex;
+    width: 100%;
+    flex-direction: column;
+    }
+     .one .column2 {
+width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    align-items: center;
+    
+ }
+ 
+ .one .column1 {
+width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    align-items: center;
+    
+ }
+ .one .column1 h1 {
+    font-size: 40px;
+ }
+ .one .column1 pre {
+    font-size: 30px;
+ }
+.one .column1 button {
+   line-height: 2.5;
+    font-size: 18px;
+    margin: 20px;
+}
+.one {
+   width: 100%;
+    display: flex; 
+}
+ .one .column2 {
+    width: 100%;
+    display: flex;
+    height: 800px;
+    }
+.one .column2 img {
+    width: 100%;
+    height: 800px;
+}
+.two {
+        display: flex;
+        width: 100%;
+    }
+
+.two .row {
+     display: flex;
+    width: 100%;
+    flex-direction: column;
+    }
+ 
+ .two .columnfirst {
+width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 700px;
+    align-items: center;
+    
+ }
+ .two .columnfirst img {
+width: 100%;
+    display: flex;
+   
+    height: 700px;
+    
+    
+ }
+ .two .columnsecond {
+width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    align-items: center;
+    
+ }
+ .two .columnsecond h1 {
+    font-size: 40px;
+ }
+ .two .columnsecond pre {
+    font-size: 30px;
+ }
+.two .columnsecond button {
+   line-height: 2.5;
+    font-size: 18px;
+    margin: 20px;
+}
+.three {
+   width: 100%;
+    display: flex; 
+}
+ .three .row {
+   display: grid;
+    width: 100%;
+ }
+ .three .column3 {
+   display: grid;
+    width: 100%;
+    height: 800px;
+}
+.three .column3 .detail {
+    display: flex;
+   justify-content: end;
+}
+
+.three .column3 h2 {
+font-size: 40px;
+}
+.three .column3 p {
+font-size: 30px;
+}
+ .three .column4 {
+   display: grid;
+    width: 100%;
+    height: 800px;
+}
+.three .column4 .detail {
+    display: flex;
+   justify-content: end;
+}
+
+.three .column4 h2 {
+font-size: 40px;
+}
+.three .column4 p {
+font-size: 30px;
+}
+.four {
+    display: grid;
+    width: 100%;
+    height: fit-content;
+}
+
+.four .card-grid {
+   display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+.five {
+    display: flex;
+    width: 100%;
+    height:1788px;
+}
+.five .gallary {
+    display: grid;
+   grid-template-areas: "img img";
+}
+footer {
+   display: flex;
+    max-width: 100%;
+    height: 500px;
+   flex-direction: column;
+   
+}
+.foot {
+    display: grid;
+    max-width: 100%; 
+}
+.icons {
+    display: grid;
+    max-width: 100%;  
+}
+}
+@media only screen and (min-width: 1000px) and (max-width: 1300px)
+{
+    body {
+        width: max-content;
+        overflow: auto;
+    }
+}

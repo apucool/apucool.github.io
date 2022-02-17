@@ -1,0 +1,30 @@
+body {
+  font-family: system-ui;
+  background-color: rgba(192,192,192,0.3);
+  color: black;
+  text-align: center;
+}
+#image{
+ position: relative;
+  display:block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 600px) #main{
+  max-width: 100%;
+  orientation: portrait;
+   align-items: center;
+  background-size: contain;
+ }
+#title{
+  font-family:Sans-serif;
+    font-size: 30px;
+  font-style: normal;
+ }
+#img-div{
+  border-width: thin;
+}
+#image{
+   border-image: url(image.jpg) 30 round;
+  border-image-color: blue;
+}
